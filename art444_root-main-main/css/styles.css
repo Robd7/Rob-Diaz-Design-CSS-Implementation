@@ -1,0 +1,462 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    padding: 60px 40px;
+}
+
+section:nth-child(odd) {
+    background-color: #E0E2EF;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+
+.nav-container {
+    padding: 20px 0;
+}
+
+.nav-buttons {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.name {
+    color: #000000;
+    font-family: "Monument Extended";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tagline {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.96px;
+    width: 571px;
+    height: 113px;
+    flex-shrink: 0;
+}
+
+.specialties {
+    color: #525252;
+    font-family: Poppins light;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about-title {
+    color: #525252;
+    font-family: "Monument Extended";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+}
+
+.about-content {
+    color: #525252;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 472px;
+    height: 613px;
+    flex-shrink: 0;
+}
+
+.about-career {
+    color: #525252;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.96px;
+    width: 700px;
+    height: 113px;
+    flex-shrink: 0;
+    padding-bottom: 40px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contact-hello, .contact-portfolio {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+.contact-hello a, .contact-portfolio a {
+    color: #816de1;
+    text-decoration: none;
+}
+
+.contact-hello a:hover, .contact-portfolio a:hover {
+    text-decoration: underline;
+}
+
+.nav-container {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.nav-buttons a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.nav-buttons a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.about-divider {
+    border: none;
+    height: 2px;
+    background-color: #333;
+    margin: 20px 0;
+}
+
+#skills .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.skill-title {
+    margin: 0;
+    text-align: left;
+}
+
+.skill-description {
+    margin: 0;
+    text-align: left;
+}
+
+.specialties {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.specialty-uiux, .specialty-branding {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+.contact-info {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-hello, .contact-portfolio {
+    padding: 30px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.contact-hello a, .contact-portfolio a {
+    color: #525252;
+    text-decoration: none;
+}
+
+.contact-hello a:hover, .contact-portfolio a:hover {
+    text-decoration: underline;
+}
+
+.skills-header {
+    color: #525252;
+    font-family: "Monument Extended";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+}
+
+#gallery .container {
+    padding: 0 20px;
+}
+
+.gallery-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-images {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+}
+
+.gallery-img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.skills-header {
+    color: #525252;
+    font-family: "Monument Extended";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+}
+
+#gallery h2 {
+    color: #525252;
+    font-family: "Monument Extended";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+}
+
+#faq h2 {
+    color: #525252;
+    font-family: "Monument Extended";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    padding: 10px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #525252;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+}
+
+.footer-right {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+footer img {
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin: 0;
+    padding-top: 10px;
+}
+
+footer .footer-right p {
+    color: black;
+}
+
+footer .footer-left p {
+    color: black;
+}
+
+#faq {
+    padding: 20px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.faq-question h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.arrow {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.faq-answer {
+    padding: 0 20px 20px;
+    display: none;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background-color: #E0E2EF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.faq-item.active .faq-answer {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.faq-item.active .arrow {
+    transform: rotate(180deg);
+}
+
+.faq-question:hover {
+    background-color: #e0e2ef;
+}
+
+.work-divider {
+    border: 0;
+    border-top: 2px solid #525252;
+    margin: 20px 0;
+    width: 100%;
+}
+
+h1, .about-title, .skills-header, #gallery h2, #faq h2 {
+    text-align: left;
+}
+
+#splash .landing-page {
+    padding: 40px 0;
+}
+
+.intro {
+    padding-bottom: 40px;
+}
+
+.specialties {
+    padding-top: 40px;
+}
+
+.logo {
+    position: absolute;
+    top: 10x;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    z-index: 1000;
+}
+
+* {
+    color: #000000 !important;
+}
